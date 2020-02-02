@@ -1,15 +1,15 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Datalocution - talking about data"
+title = "Datalocution"
 theme = "beautifulhugo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 googleAnalytics = ""
 disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", ".md$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
-    post = "/:year/:month/:day/:slug/"
+    post = "/:slug/"
 
 [[menu.main]]
     name = "About"
@@ -21,24 +21,35 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", ".md$"]
     name = "Twitter"
     url = "https://twitter.com/seamus_mckinsey"
 
-[params]
-    description = "Musings about data."
-
+[Params]
+    description = "Musings about words and data."
+    subtitle = "Words about data"
     # options for highlight.js (version, additional languages, and theme)
-    # highlightjsVersion = "9.12.0"
-    # highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    # highlightjsLang = ["r", "yaml"]
-    # highlightjsTheme = "github"
+    useHLJS = true
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
 
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"
 
     # path to the favicon, under "static"
     favicon = "favicon.ico"
+    logo = "img/avatar-icon.png" # Expecting square dimensions
+    dateFormat = "January 2, 2006"
+    commit = false
+    rss = true
+    comments = true
+    readingTime = true
+    wordCount = true
+    socialShare = true
+    showRelatedPosts = true
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+[Author]
+  name = "Seamus McKinsey"
+  website = "datalocution.netlify.com"
+  github = "seamus-mckinsey"
+  twitter = "seamus_mckinsey"
+  linkedin = "seamus-mckinsey"
 
