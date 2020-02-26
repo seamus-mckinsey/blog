@@ -3,3 +3,6 @@
 .Rproj.user
 public/
 blogdown/
+themes/
+*.html
+resources/

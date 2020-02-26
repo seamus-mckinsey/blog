@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Datalocution"
+title = "Seamus' blog"
 theme = "beautifulhugo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -22,8 +22,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://twitter.com/seamus_mckinsey"
 
 [Params]
-    description = "Musings about words and data."
-    subtitle = "Words about data"
+    description = "A place for me to learn and write"
+    subtitle = "Learning, Data, and R"
     # options for highlight.js (version, additional languages, and theme)
     useHLJS = true
     highlightjsVersion = "9.12.0"
@@ -48,7 +48,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Author]
   name = "Seamus McKinsey"
-  website = "datalocution.netlify.com"
+  website = "seamus.netlify.com"
   github = "seamus-mckinsey"
   twitter = "seamus_mckinsey"
   linkedin = "seamus-mckinsey"
