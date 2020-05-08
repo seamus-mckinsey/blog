@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/seamus_mckinsey
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://seamus.netlify.com
+  * I am seamus_mckinsey (https://keybase.io/seamus_mckinsey) on keybase.
+  * I have a public key ASDHgP0sNk4TA11XxxRrmwpKwBzWXE9t5FFgkumlOufqwQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ded4dbe75b65d76b4f1bbeba0bcbeec82f8e6c1a5a2f239ec9fbe2c75fe02e0f0a",
+      "host": "keybase.io",
+      "kid": "0120c780fd2c364e13035d57c7146b9b0a4ac01cd65c4f6de4516092e9a53ae7eac10a",
+      "uid": "23b57e63b3dad39b2376efd0caafbf19",
+      "username": "seamus_mckinsey"
+    },
+    "merkle_root": {
+      "ctime": 1588953746,
+      "hash": "9131094d664bcc5cc63841a3f79e01ee39841418dd1338c4fe759fb5f126e4551855a241830e464e5dc5ff22a1712a389910058de4a5d16c1649e9d9027caa6c",
+      "hash_meta": "757c03b4de9c8e5ba394c53195f4f766d4be82adfdcd10cbc227c42becccff04",
+      "seqno": 16216486
+    },
+    "service": {
+      "entropy": "voMuGfoUNp4VyiBpm9wmmggy",
+      "hostname": "seamus.netlify.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.2"
+  },
+  "ctime": 1588953777,
+  "expire_in": 504576000,
+  "prev": "e48e651abdb59da81291aca2295c359ddbbec6b61d415f34b856a6468ad81c76",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx4D9LDZOEwNdV8cUa5sKSsAc1lxPbeRRYJLppTrn6sEKp3BheWxvYWTESpcCDMQg5I5lGr21nagSkayiKVw1ndu+xrYdQV80uFamRorYHHbEIIwhFzuOr1h11KpAA9uM/MJqh+0e7LDxn3fbSpdBs9pTAgHCo3NpZ8RAKYDLsiP0uOg/VJ9mSWDdXkh5RZ5SmA1w3A8Oz9V3W7+codXd4Gpjy2AjYLo3b25zUFOJ9wta+sfsIsnRyO0/C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPFMwRL3v7BgIErWgHlalE18LrnQ1Ml0WKQ7qwhq9Aaro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/seamus_mckinsey
+
+==================================================================
