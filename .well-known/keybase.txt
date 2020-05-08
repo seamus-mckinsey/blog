@@ -4,7 +4,7 @@ https://keybase.io/seamus_mckinsey
 
 I hereby claim:
 
-  * I am an admin of https://seamus.netlify.com
+  * I am an admin of https://seamus.netlify.app
   * I am seamus_mckinsey (https://keybase.io/seamus_mckinsey) on keybase.
   * I have a public key ASDHgP0sNk4TA11XxxRrmwpKwBzWXE9t5FFgkumlOufqwQo
 
@@ -20,14 +20,14 @@ To do so, I am signing this object:
       "username": "seamus_mckinsey"
     },
     "merkle_root": {
-      "ctime": 1588953746,
-      "hash": "9131094d664bcc5cc63841a3f79e01ee39841418dd1338c4fe759fb5f126e4551855a241830e464e5dc5ff22a1712a389910058de4a5d16c1649e9d9027caa6c",
-      "hash_meta": "757c03b4de9c8e5ba394c53195f4f766d4be82adfdcd10cbc227c42becccff04",
-      "seqno": 16216486
+      "ctime": 1588954072,
+      "hash": "30b482b002358235f872465b8fb9ba9d98bc4eb7ed86ece17262b8b113ee85208fde2256e22d57a3a050df239988108320d9cab38cc5769d9633fca7373cb49e",
+      "hash_meta": "d7f235551740e01be387d2490552bdfdfaf8b05ac0e769ca51d58cc71c6fc011",
+      "seqno": 16216578
     },
     "service": {
-      "entropy": "voMuGfoUNp4VyiBpm9wmmggy",
-      "hostname": "seamus.netlify.com",
+      "entropy": "PkfK+N/0fyjGOziSi8S4kiMl",
+      "hostname": "seamus.netlify.app",
       "protocol": "https:"
     },
     "type": "web_service_binding",
@@ -37,16 +37,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "5.4.2"
   },
-  "ctime": 1588953777,
+  "ctime": 1588954095,
   "expire_in": 504576000,
-  "prev": "e48e651abdb59da81291aca2295c359ddbbec6b61d415f34b856a6468ad81c76",
-  "seqno": 12,
+  "prev": "b0d12902a1f063bd189dce145935055728a6fea8f3c0af99d5474501391fcbfb",
+  "seqno": 14,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx4D9LDZOEwNdV8cUa5sKSsAc1lxPbeRRYJLppTrn6sEKp3BheWxvYWTESpcCDMQg5I5lGr21nagSkayiKVw1ndu+xrYdQV80uFamRorYHHbEIIwhFzuOr1h11KpAA9uM/MJqh+0e7LDxn3fbSpdBs9pTAgHCo3NpZ8RAKYDLsiP0uOg/VJ9mSWDdXkh5RZ5SmA1w3A8Oz9V3W7+codXd4Gpjy2AjYLo3b25zUFOJ9wta+sfsIsnRyO0/C6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIPFMwRL3v7BgIErWgHlalE18LrnQ1Ml0WKQ7qwhq9Aaro3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx4D9LDZOEwNdV8cUa5sKSsAc1lxPbeRRYJLppTrn6sEKp3BheWxvYWTESpcCDsQgsNEpAqHwY70Ync4UWTUFVyim/qjzwK+Z1UdFATkfy/vEIMjxoR2NErYCkqY0yShJpIZuuPsZnb6fYsN3hEiHbXZLAgHCo3NpZ8RAFxr5gAPu1vfjN6u41JERzXxZ3YTPp8AxquOiLG5yTjPVXyhoS3frzjxgJdRLiJxuAuyY9Y2sQNZUtL1rKIw2AahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDUKnaIjFzl2GZdZEzDxjCd+FNIvqey2PVoYwCYYNMvvo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
