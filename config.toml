@@ -4,8 +4,8 @@ title = "Seamus' blog"
 theme = "beautifulhugo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "UA-167364484-1"
+disqusShortname = "seamus-blog"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -48,7 +48,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Author]
   name = "Seamus McKinsey"
-  website = "seamus.netlify.com"
   github = "seamus-mckinsey"
   twitter = "seamus_mckinsey"
   linkedin = "seamus-mckinsey"
