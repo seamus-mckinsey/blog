@@ -52,4 +52,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   github = "seamus-mckinsey"
   twitter = "seamus_mckinsey"
   linkedin = "seamus-mckinsey"
+  keybase = "seamus_mckinsey"
 
