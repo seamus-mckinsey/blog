@@ -17,20 +17,60 @@ _Update 5/20/20:_ Well, that time has come [earlier than expected](https://www.l
 ## Xcode
 Install 
 ```sh
+# install xcode command-line tools, including git
 xcode-select --install
 ```
+
 ## Homebrew
 Get Homebrew (https://brew.sh/) installed:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
+
+```sh
+# 
+brew tap caskroom/cask
+ 
+brew install Caskroom/cask/xquartz
+brew cask install java
+
+# Tell R where Java is
+R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
+ 
+# For latex:  (takes a long time)
+brew cask install mactex
+
+# For pandoc citeproc (https://github.com/jgm/pandoc-citeproc)
+brew install pandoc-citeproc
+
+# Some libraries for common R packages
+brew install libsvg curl libxml2 boost pandoc v8@3.15
+
+
+```
+
+## Setting up Github PAT and ssh keys
+
+```sh
+# see Jenny Bryan's book for details: https://happygitwithr.com/connect-intro.html
+
+```
+
 ## Tidyverse & friends
 
 Now that blogdown and friends are installed, let's make sure to get hugo since we use the [Beautiful Hugo theme](https://themes.gohugo.io/beautifulhugo/):
+
 ```r 
 blogdown::install_hugo()
 ```
+
+## Miscellaneous
+
+- Alfred https://www.alfredapp.com/
+- Oh my Zsh https://ohmyz.sh/ (use "agnoster" theme)
+- 
+
 ## Credits
 I was guided by and borrowed content from these excellent guides:
 - [Macbook Pro Setup for Data Science at EnvReportBC](https://github.com/bcgov/envreportutils/wiki/Macbook-Pro-Setup-for-Data-Science-at-EnvReportBC)

@@ -42,7 +42,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     rss = true
     comments = true
     readingTime = true
-    wordCount = true
     socialShare = true
     showRelatedPosts = true
 
