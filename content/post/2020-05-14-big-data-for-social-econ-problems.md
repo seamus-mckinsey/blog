@@ -1,10 +1,10 @@
 ---
-title: What I Learned from Big Data for Social Problems
+title: What I'm learning from "Using Big Data to Solve Social and Economic Problems"
 author: ~
 date: '2020-05-14'
 slug: big-data-for-econ-social-problems
-categories: []  
-tags: []
+categories: [learning, data, economics]  
+tags: [learning, data, economics]
 type: ''
 subtitle: ''
 image: ''

@@ -45,7 +45,7 @@ brew install r python
 # databases
 brew install postgresql mysql sqlite
 
-# install apache ZXXdrill 
+# install apache drill - note the hardcoded version number will need to be updated
 wget http://apache.mirrors.hoobly.com/drill/drill-1.17.0/apache-drill-1.17.0.tar.gz
 
 # optional docker installation - can also install docker via link below 
