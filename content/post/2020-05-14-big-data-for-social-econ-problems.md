@@ -29,12 +29,6 @@ Chetty focuses on how big data provide two benefits:
 
 Given that most of the data in the course is observational, the course also gently introduces causal inference. Rather than provide an introduction to the field as a whole, the course proceeds method by method (e.g., regression discontinuity, instrumental variables), focusing on application, intuition, and results rather than implementation details. The implementation details are absolutely important, but grounding them in makes the process of learning the drier material much more palatable. 
 
-In Hal Varian's article ["Big Data - New Tricks for Econometrics"](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.28.2.3), he lays out three reasons why big data requires different tools: 
-
-1. the size of the data
-2. the number of predictors / independent variables
-3. additional flexibility in types of models (e.g., nonlinear models)
-
 On the larger point of correlation vs. causation, Chetty takes the student through the researcher's thought process in building a body of evidence, of identifying important factors that may contribute to your outcome of interest, and then designing additional experiments or quasi-experiments to identify their effects. This was a refreshing take on the traditional "correlation ≠ causation" that often leaves students confused about how to move forward. 
 
 ### What's coming
@@ -46,3 +40,6 @@ Brief notes on some key things the course has highlighted (I'll expand on these 
 - intuition for how to use methods for (I see promise for using [list-cols](https://r4ds.had.co.nz/many-models.html) and `purrr` for this )
 - we need effects to hold on average (i.e., the error term not correlated), not for everyone
 - how to interpret statistically insignificant results (i.e., we don't have the precision or amount of data needed to make a statement, not that there is no effect)
+
+More broadly, I'm going to spend some time thinking about how "big data" and standard econometric techniques relate. To start, I'll be re-reading Hal Varian's article ["Big Data - New Tricks for Econometrics"](https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.28.2.3).
+
