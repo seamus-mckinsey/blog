@@ -94,9 +94,9 @@ ssh -T git@github.com
 ## Tidyverse & friends
 
 ```r
-packages <- c("tidyverse", "tidymodels", "tidyquant", 
-              "devtools", "blogdown", "shiny", "htmlwidgets", "DBI", 
-              "Rcpp", )
+packages <- c("tidyverse", "tidymodels", "tidyquant", "tidytext",
+              "devtools", "blogdown", "shiny", "htmlwidgets", "DT", 
+              "Rcpp", "DBI", "dbplyr", "drake", "plotly")
 install.packages(packages)
 ```
 
@@ -114,6 +114,7 @@ blogdown::install_hugo()
 - 
 
 ## Credits
+
 I was guided by and borrowed content from these excellent guides:
 - [Macbook Pro Setup for Data Science at EnvReportBC](https://github.com/bcgov/envreportutils/wiki/Macbook-Pro-Setup-for-Data-Science-at-EnvReportBC)
 - 
