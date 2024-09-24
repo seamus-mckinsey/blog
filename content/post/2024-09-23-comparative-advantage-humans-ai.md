@@ -12,11 +12,13 @@ image: ''
 
 # Comparative Advantage of Humans and AI
 
-Recently I've been working more with AI tools in my data analysis workflow, and it's raised a question that keeps nagging at me: if AI keeps getting better at everything, what's left for humans to do? The pessimistic answer is "nothing eventually." But there's an economic concept that offers a more nuanced—and perhaps surprising—perspective: comparative advantage.
+Recently I've been working more with AI tools at work, primarly [Cursor](https://cursor.com/). It's been extremely useful in automating the lower value parts of the analytics engineering workflow: writing config for data models (dbt yml files) and writing basic documentation in markdown (drawing from comments and logic in the SQL files). It's also good enough to suggest adding basic tests, like standard `unique` and `not_null` dbt tests.
+
+AI tools have made more productive. They've also raised a question that keeps nagging at me: if I extrapolate this out 5-10 years, what's left for humans to do? AI will move from the lower value to higher value tasks. Perhaps there's some ceiling they'll hit where humans will remain . But there's concept in economics that offers a more nuanced—and perhaps surprising—perspective: comparative advantage.
 
 ## What is Comparative Advantage?
 
-Comparative advantage is one of those counterintuitive ideas from economics that feels wrong at first but becomes profound once it clicks. The core insight: **two parties can benefit from specialization and trade even when one party is absolutely better at everything.**
+Comparative advantage is one of those counterintuitive ideas from economics that feels wrong at first but becomes profound once it clicks. Paul Samuelson, founder of modern economics, once said "thousands of important and intelligent men have never been able to grasp the doctrine for themselves or to believe it after it was explained to them." The core insight: **two parties can benefit from specialization and trade even when one party is absolutely better at everything.**
 
 Here's a classic example to build intuition. Imagine a lawyer who types 120 words per minute, while their paralegal types 80 words per minute. The lawyer is better at typing! Should they therefore do their own typing?
 
@@ -38,58 +40,6 @@ Why? Because the AI's time is valuable. Every hour the AI spends on interpretati
 
 **Important caveat**: This logic assumes AI resources are scarce—that there's a meaningful opportunity cost to how AI spends its time. If AI becomes infinitely abundant and cheap, this logic breaks down. More on this later.
 
-## Practical Example: Data Analysis and Research
-
-Let me walk through a realistic scenario from my own work to make this concrete.
-
-When I'm doing data analysis for a research project, the workflow typically involves:
-
-- **Data collection and cleaning**: Gathering data from various sources, formatting it consistently, handling missing values, checking for errors
-- **Statistical analysis**: Running tests, creating visualizations, calculating summary statistics
-- **Domain knowledge and context**: Understanding what questions actually matter, recognizing when data patterns seem fishy, knowing relevant prior research
-- **Interpretation and judgment**: Connecting results to broader context, identifying implications, deciding what findings matter
-- **Communication to stakeholders**: Writing up results, creating presentations, answering questions
-
-AI (especially modern LLMs with code execution capabilities) excels at the first two. It can scrape websites, wrangle messy data formats, and produce clean visualizations far faster than I can.
-
-I have an edge on domain knowledge and context. I've spent years in my field, I know which questions are well-trodden versus novel, I can spot when a data quirk is a real signal versus an artifact of how data was collected.
-
-Interpretation and judgment is mixed—AI can generate initial interpretations, but I bring stakeholder awareness and can connect to organizational priorities that aren't in the training data.
-
-Communication is collaborative—AI can draft clear explanations, but I tailor the message and handle the interpersonal dynamics of presenting challenging findings.
-
-Given this landscape, the optimal division of labor has me spending less time on data wrangling (where AI's advantage is huge) and more time on interpretation and stakeholder communication (where my advantage, while smaller, still exists). Even if AI eventually becomes better than me at interpretation, I might still focus there because that's where the gap is smallest.
-
-This is comparative advantage at work.
-
-## Chess as Case Study: Advanced Chess
-
-The history of chess and computers offers a fascinating case study for human-AI collaboration and the evolution of comparative advantage.
-
-In 1998, after losing to Deep Blue, Garry Kasparov proposed a new format: **Advanced Chess**, where human players could consult computer engines during the game. The idea was to combine human strategic creativity with computer tactical calculation.
-
-The results were striking. Human+computer teams (called "centaurs") beat both pure humans and pure computers. The best centaur players weren't necessarily the strongest chess players—they were players who best understood how to collaborate with their silicon partners.
-
-What made centaur chess work was a clear division based on comparative advantage:
-
-- **Humans focused on**: Position evaluation, opening preparation, endgame strategy, identifying candidate moves worth analyzing
-- **Computers focused on**: Deep tactical calculation, finding forcing sequences, evaluating sharp positions, remembering vast databases of positions
-
-Humans didn't try to out-calculate the engines (where computers had massive advantage). Instead, they focused on judgment, pattern recognition, and strategic oversight (where their advantage, while smaller, still mattered).
-
-This is exactly the dynamic we discussed: humans specialized in areas where they were *least* worse, even though computers were objectively better at everything by certain metrics.
-
-### The Decline of Centaur Chess
-
-Here's where the story gets more sobering. By the 2010s, chess engines had improved to the point where even the best human+computer teams could no longer beat the top engines alone. The human contribution to the partnership diminished to essentially zero.
-
-What happened? The comparative advantage of humans in chess evaporated as:
-1. Engines became so strong that their "weak" areas (positional judgment, strategy) became strengths
-2. Engine speed and power meant the opportunity cost of having them do everything was negligible
-3. Human intuition stopped adding value over brute force calculation
-
-This raises an uncomfortable question: is the comparative advantage of humans in knowledge work similarly temporary? As AI improves across all dimensions, will our edge in judgment, context, and interpretation eventually disappear the way human chess intuition did?
-
 ## Implications and Open Questions
 
 The optimistic interpretation of comparative advantage goes like this: there's always *something* for humans to do, even if AI is better at everything. As AI gets better at task X, humans shift to task Y. The market ensures demand for human labor because we'll always have comparative advantage somewhere.
@@ -108,22 +58,11 @@ This is like asking: even though I have comparative advantage over a lawyer in p
 
 **Preference for human interaction.** One potential answer: maybe people will simply *prefer* human services in certain domains, even if AI is technically better. We might want human doctors, teachers, therapists, or coaches for social and emotional reasons that go beyond pure capability. This is less about comparative advantage and more about product differentiation, but it might preserve roles for humans.
 
-## What's Coming
-
-I'm still working through these questions and don't have firm answers. Areas I want to explore in future posts:
-
-- How to identify and develop your personal comparative advantage in an AI-augmented world
-- The role of taste, judgment, and context in knowledge work—can these remain durable human advantages?
-- Whether comparative advantage as a framework survives the arrival of artificial general intelligence (AGI)
-- Labor market dynamics when AI is your coworker versus your replacement
-
 ## Further Reading
 
 Some resources I've found helpful in thinking through these questions:
 
-- **David Autor's work on automation and labor markets**: His papers explore how automation affects jobs, including "Why Are There Still So Many Jobs?" and work on task-based models of labor
-- **Kasparov on advanced chess**: His writings on chess and AI collaboration, particularly around the Advanced Chess era
-- **Ricardo's original work on comparative advantage**: For those interested in the formal economic theory
-- **Tyler Cowen on average is over**: Thoughts on how labor markets might bifurcate between those who work well with machines and those who don't
+- **David Autor's work on automation and labor markets**: Especially [Why Are There Still So Many Jobs?](https://economics.mit.edu/sites/default/files/inline-files/Why%20Are%20there%20Still%20So%20Many%20Jobs_0.pdf) and work on task-based models of labor
+- **Kasparov on advanced chess**: His writings on chess and AI collaboration. [Here's](https://news.northeastern.edu/2024/06/17/garry-kasparov-chess-humans-ai/) a recent relevant article.
 
-This is very much a work-in-progress exploration. I'd love to hear from others thinking about these questions—what have I missed? Where is the analysis too optimistic or pessimistic?
+This is very much a work-in-progress exploration. I'd love to hear from others thinking about these questions.
