@@ -3,26 +3,24 @@ title: Comparative advantage of humans and AI
 author: ~
 date: '2024-09-23'
 slug: comparative-advantage-humans-ai
-categories: [AI, Economics]
-tags: [AI, Economics, Comparative Advantage, Chess]
+categories: [ai, economics]
+tags: [ai, economics]
 type: ''
 subtitle: ''
 image: ''
 ---
 
-# Comparative Advantage of Humans and AI
-
 Recently I've been working more with AI tools at work, primarly [Cursor](https://cursor.com/). It's been extremely useful in automating the lower value parts of the analytics engineering workflow: writing config for data models (dbt yml files) and writing basic documentation in markdown (drawing from comments and logic in the SQL files). It's also good enough to suggest adding basic tests, like standard `unique` and `not_null` dbt tests.
 
-AI tools have made more productive. They've also raised a question that keeps nagging at me: if I extrapolate this out 5-10 years, what's left for humans to do? AI will move from the lower value to higher value tasks. Perhaps there's some ceiling they'll hit where humans will remain . But there's concept in economics that offers a more nuanced—and perhaps surprising—perspective: comparative advantage.
+AI tools have made me more productive. They've also raised a question that keeps nagging at me: if I extrapolate this out 5-10 years, what's left for humans to do? AI will move from the lower value to higher value tasks. Perhaps there's some ceiling they'll hit where humans will remain . But there's concept in economics that offers a more nuanced—and perhaps surprising—perspective: comparative advantage.
 
 ## What is Comparative Advantage?
 
-Comparative advantage is one of those counterintuitive ideas from economics that feels wrong at first but becomes profound once it clicks. Paul Samuelson, founder of modern economics, once said "thousands of important and intelligent men have never been able to grasp the doctrine for themselves or to believe it after it was explained to them." The core insight: **two parties can benefit from specialization and trade even when one party is absolutely better at everything.**
+Comparative advantage is one of those counterintuitive ideas from economics that feels wrong at first but becomes profound once it clicks. [Paul Samuelson](https://www.nobelprize.org/prizes/economic-sciences/1970/samuelson/biographical/), founder of modern economics, once said "thousands of important and intelligent men have never been able to grasp the doctrine for themselves or to believe it after it was explained to them." What was so hard to understand? **Two parties can benefit from specialization and trade even when one party is absolutely better at everything.**
 
 Here's a classic example to build intuition. Imagine a lawyer who types 120 words per minute, while their paralegal types 80 words per minute. The lawyer is better at typing! Should they therefore do their own typing?
 
-No—because of opportunity cost. While the lawyer spends an hour typing up documents, they're not spending that hour on legal work that might bill at $500/hour. The paralegal's time might be worth $50/hour. Even though the lawyer is better at both legal work *and* typing, they should specialize in legal work (where they have the greatest advantage) and let the paralegal handle the typing.
+No, because of opportunity cost. While the lawyer spends an hour typing up documents, they're not spending that hour on legal work that might bill at $500/hour. The paralegal's time might be worth $50/hour. Even though the lawyer is better at both legal work *and* typing, they should specialize in legal work (where they have the greatest advantage) and let the paralegal handle the typing.
 
 Another way to think about it: Country A can produce both cars and wine more efficiently than Country B. But Country A is 10x more efficient at making cars and only 2x more efficient at making wine. Country A should specialize in cars (where its advantage is greatest), and Country B should specialize in wine (where its disadvantage is smallest). Both countries end up better off through trade.
 
