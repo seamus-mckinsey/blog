@@ -4,7 +4,6 @@ title = "Seamus' blog"
 theme = "beautifulhugo"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
-disqusShortname = "seamus-blog"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
